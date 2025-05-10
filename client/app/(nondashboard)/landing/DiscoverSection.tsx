@@ -67,6 +67,7 @@ const DiscoverSection = () => {
             <motion.div key={index} variants={itemVariants}>
               <DiscoverCard {...card} />
             </motion.div>
+            
           ))}
         </div>
       </div>
